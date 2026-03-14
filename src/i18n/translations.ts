@@ -1,0 +1,241 @@
+export type Locale = 'en' | 'ar';
+
+export const translations = {
+  en: {
+    // Nav
+    dashboard: 'Dashboard',
+    queue: 'Queue',
+    bookings: 'Bookings',
+    customers: 'Customers',
+    workers: 'Workers',
+    services: 'Services',
+    payments: 'Payments',
+    expenses: 'Expenses',
+    inventory: 'Inventory',
+    reports: 'Reports',
+    attendance: 'Attendance',
+    settings: 'Settings',
+
+    // Dashboard
+    totalCustomers: 'Total Customers',
+    totalRevenue: 'Total Revenue',
+    totalExpenses: 'Total Expenses',
+    netProfit: 'Net Profit',
+    onlineBookings: 'Online Bookings',
+    walkIns: 'Walk-ins',
+    activeWorkers: 'Active Workers',
+    topServices: 'Top Services',
+    pendingPayments: 'Pending Payments',
+    currentQueue: 'Current Queue',
+    nowServing: 'Now Serving',
+    estimatedWait: 'Est. Wait',
+    lowInventory: 'Low Inventory',
+
+    // Queue
+    nextCustomer: 'Next Customer',
+    startService: 'Start',
+    finishService: 'Finish',
+    skipCustomer: 'Skip',
+    cancelBooking: 'Cancel',
+    waiting: 'Waiting',
+    inProgress: 'In Progress',
+    done: 'Done',
+    cancelled: 'Cancelled',
+    noShow: 'No Show',
+    addToQueue: 'Add to Queue',
+    transferWorker: 'Transfer',
+    minutesShort: 'min',
+
+    // Workers
+    addWorker: 'Add Worker',
+    editWorker: 'Edit Worker',
+    workerName: 'Name',
+    phone: 'Phone',
+    role: 'Role',
+    salary: 'Salary',
+    commission: 'Commission',
+    status: 'Status',
+    active: 'Active',
+    inactive: 'Inactive',
+    hireDate: 'Hire Date',
+    performance: 'Performance',
+
+    // Customers
+    addCustomer: 'Add Customer',
+    searchPhone: 'Search by phone...',
+    visits: 'Visits',
+    loyaltyPoints: 'Loyalty Points',
+    preferredBarber: 'Preferred Barber',
+    lastVisit: 'Last Visit',
+
+    // Services
+    addService: 'Add Service',
+    serviceName: 'Service Name',
+    price: 'Price',
+    duration: 'Duration',
+    category: 'Category',
+
+    // Payments
+    amount: 'Amount',
+    method: 'Method',
+    cash: 'Cash',
+    card: 'Card',
+    wallet: 'Wallet',
+    date: 'Date',
+    receipt: 'Receipt',
+
+    // Expenses
+    addExpense: 'Add Expense',
+    expenseCategory: 'Category',
+    notes: 'Notes',
+
+    // Inventory
+    addProduct: 'Add Product',
+    productName: 'Product Name',
+    stock: 'Stock',
+    cost: 'Cost',
+    supplier: 'Supplier',
+    lowStock: 'Low Stock',
+
+    // General
+    search: 'Search...',
+    save: 'Save',
+    cancel: 'Cancel',
+    delete: 'Delete',
+    edit: 'Edit',
+    add: 'Add',
+    filter: 'Filter',
+    today: 'Today',
+    week: 'This Week',
+    month: 'This Month',
+    custom: 'Custom',
+    total: 'Total',
+    actions: 'Actions',
+    name: 'Name',
+    email: 'Email',
+    noData: 'No data available',
+    shopName: 'Smart Barber',
+    revenue: 'Revenue',
+    profit: 'Profit',
+  },
+
+  ar: {
+    // Nav
+    dashboard: 'لوحة التحكم',
+    queue: 'قائمة الانتظار',
+    bookings: 'الحجوزات',
+    customers: 'العملاء',
+    workers: 'الموظفين',
+    services: 'الخدمات',
+    payments: 'المدفوعات',
+    expenses: 'المصروفات',
+    inventory: 'المخزون',
+    reports: 'التقارير',
+    attendance: 'الحضور',
+    settings: 'الإعدادات',
+
+    // Dashboard
+    totalCustomers: 'إجمالي العملاء',
+    totalRevenue: 'إجمالي الإيرادات',
+    totalExpenses: 'إجمالي المصروفات',
+    netProfit: 'صافي الربح',
+    onlineBookings: 'حجوزات أونلاين',
+    walkIns: 'حضور مباشر',
+    activeWorkers: 'موظفين نشطين',
+    topServices: 'أعلى الخدمات',
+    pendingPayments: 'مدفوعات معلقة',
+    currentQueue: 'قائمة الانتظار الحالية',
+    nowServing: 'يتم الخدمة الآن',
+    estimatedWait: 'الانتظار المتوقع',
+    lowInventory: 'مخزون منخفض',
+
+    // Queue
+    nextCustomer: 'العميل التالي',
+    startService: 'ابدأ',
+    finishService: 'إنهاء',
+    skipCustomer: 'تخطي',
+    cancelBooking: 'إلغاء',
+    waiting: 'بانتظار',
+    inProgress: 'قيد التنفيذ',
+    done: 'مكتمل',
+    cancelled: 'ملغي',
+    noShow: 'لم يحضر',
+    addToQueue: 'إضافة للقائمة',
+    transferWorker: 'نقل',
+    minutesShort: 'د',
+
+    // Workers
+    addWorker: 'إضافة موظف',
+    editWorker: 'تعديل موظف',
+    workerName: 'الاسم',
+    phone: 'الهاتف',
+    role: 'الدور',
+    salary: 'الراتب',
+    commission: 'العمولة',
+    status: 'الحالة',
+    active: 'نشط',
+    inactive: 'غير نشط',
+    hireDate: 'تاريخ التعيين',
+    performance: 'الأداء',
+
+    // Customers
+    addCustomer: 'إضافة عميل',
+    searchPhone: 'البحث بالهاتف...',
+    visits: 'الزيارات',
+    loyaltyPoints: 'نقاط الولاء',
+    preferredBarber: 'الحلاق المفضل',
+    lastVisit: 'آخر زيارة',
+
+    // Services
+    addService: 'إضافة خدمة',
+    serviceName: 'اسم الخدمة',
+    price: 'السعر',
+    duration: 'المدة',
+    category: 'الفئة',
+
+    // Payments
+    amount: 'المبلغ',
+    method: 'طريقة الدفع',
+    cash: 'نقداً',
+    card: 'بطاقة',
+    wallet: 'محفظة',
+    date: 'التاريخ',
+    receipt: 'الإيصال',
+
+    // Expenses
+    addExpense: 'إضافة مصروف',
+    expenseCategory: 'الفئة',
+    notes: 'ملاحظات',
+
+    // Inventory
+    addProduct: 'إضافة منتج',
+    productName: 'اسم المنتج',
+    stock: 'المخزون',
+    cost: 'التكلفة',
+    supplier: 'المورد',
+    lowStock: 'مخزون منخفض',
+
+    // General
+    search: 'بحث...',
+    save: 'حفظ',
+    cancel: 'إلغاء',
+    delete: 'حذف',
+    edit: 'تعديل',
+    add: 'إضافة',
+    filter: 'فلترة',
+    today: 'اليوم',
+    week: 'هذا الأسبوع',
+    month: 'هذا الشهر',
+    custom: 'مخصص',
+    total: 'الإجمالي',
+    actions: 'إجراءات',
+    name: 'الاسم',
+    email: 'البريد الإلكتروني',
+    noData: 'لا توجد بيانات',
+    shopName: 'سمارت باربر',
+    revenue: 'الإيرادات',
+    profit: 'الربح',
+  },
+} as const;
+
+export type TranslationKey = keyof typeof translations.en;
